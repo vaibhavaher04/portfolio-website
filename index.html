@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- link font-awsome for iconc -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <span class="logo-text">Vaibhav Aher</span>
+                <span class="logo-dot" style="--delay: 0s"></span>
+                <span class="logo-dot" style="--delay: 0.2s"></span>
+                <span class="logo-dot" style="--delay: 0.4s"></span>
+            </a>
+            
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link"><span>About</span></a></li>
+                    <li><a href="#experience" class="nav-link"><span>Experience</span></a></li>
+                    <li><a href="#projects" class="nav-link"><span>Projects</span></a></li>
+                    <li><a href="#contact" class="nav-link"><span>Contact</span></a></li>
+                </ul>
+                <button class="visit-btn">
+                    <a href="https://github.com/vaibhavaher04" style="text-decoration: none; color: white;"><span>Visit GitHub</span></a>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </button>
+            </nav>
+            
+            <button class="mobile-menu-btn" id="menu-icon" aria-label="Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="profile-image-container">
+                <div class="image-wrapper">
+                    <img src="VaibhavAher.jpg" alt="Vaibhav Aher" class="profile-image">
+                    <div class="image-border"></div>
+                    <div class="tech-stack">
+                        <div class="tech-icon"><i class="fa-brands fa-html5"></i></div>
+                        <div class="tech-icon"><i class="fa-brands fa-css3-alt"></i></div>
+                        <div class="tech-icon"><i class="fa-brands fa-js"></i></div>
+                        <div class="tech-icon"><i class="fa-brands fa-react"></i></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="info-box">
+                <div class="text-content">
+                    <h3 class="greeting">Hello World, I'm</h3>
+                    <h1 class="name"><span class="name-gradient">Vaibhav Aher</span></h1>
+                    <div class="typing-container">
+                        <span class="role" id="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </div>
+                    <p class="bio">
+                        Passionate frontend developer with expertise in creating responsive, 
+                        user-friendly web applications. I specialize in modern JavaScript 
+                        frameworks and love turning ideas into interactive experiences.
+                    </p>
+                </div>
+                
+                <div class="action-buttons">
+                    <a href="Vaibhav_Aher_Resume.pdf" class="btn download-btn">
+                        Download CV
+                        <i class="fa-solid fa-download"></i>
+                    </a>
+                    <a href="#contact" class="btn contact-btn">
+                        Let's Talk
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </a>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://github.com/vaibhavaher04" class="social-link" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                        <span class="tooltip">GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/vaibhavaher04/" class="social-link" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <span class="tooltip">LinkedIn</span>
+                    </a>
+                    <a href="https://www.instagram.com/vaibhavaher04/" class="social-link" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                        <span class="tooltip">Instagram</span>
+                    </a>
+                    <a href="https://x.com/ahervaibhav04" class="social-link" aria-label="Twitter">
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <span class="tooltip">Twitter</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="experience-container">
+            <h2 class="section-title">My <span class="highlight">Experience</span></h2>
+            <p class="section-subtitle">Skills I've mastered and roles I've excelled in</p>
+            
+            <div class="experience-content">
+                <div class="experience-cards">
+                    <!-- Frontend Development Card -->
+                    <div class="experience-card">
+                        <div class="card-header">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <div class="card-title">
+                                <h3>Frontend Development</h3>
+                                <span class="duration">5+ Years Experience</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p>Specialized in building responsive, accessible web applications using modern technologies:</p>
+                            <ul class="skills-list">
+                                <li>React.js & Next.js</li>
+                                <li>TypeScript</li>
+                                <li>Tailwind CSS</li>
+                                <li>Redux/Context API</li>
+                                <li>REST/GraphQL APIs</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <span class="projects-count">50+ Projects Completed</span>
+                        </div>
+                    </div>
+                    
+                    <!-- UI/UX Design Card -->
+                    <div class="experience-card">
+                        <div class="card-header">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-pen-ruler"></i>
+                            </div>
+                            <div class="card-title">
+                                <h3>UI/UX Design</h3>
+                                <span class="duration">3 Years Experience</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p>Creating intuitive user interfaces with exceptional user experience:</p>
+                            <ul class="skills-list">
+                                <li>Figma & Adobe XD</li>
+                                <li>User Research</li>
+                                <li>Wireframing</li>
+                                <li>Prototyping</li>
+                                <li>Design Systems</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <span class="projects-count">30+ Designs Implemented</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Full Stack Development Card -->
+                    <div class="experience-card">
+                        <div class="card-header">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-server"></i>
+                            </div>
+                            <div class="card-title">
+                                <h3>Full Stack Development</h3>
+                                <span class="duration">2 Years Experience</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p>End-to-end application development with various technologies:</p>
+                            <ul class="skills-list">
+                                <li>Node.js & Express</li>
+                                <li>MongoDB & Firebase</li>
+                                <li>Authentication Systems</li>
+                                <li>AWS & Vercel Deployment</li>
+                                <li>CI/CD Pipelines</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <span class="projects-count">15+ Full Stack Apps</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Technical Leadership Card -->
+                    <div class="experience-card">
+                        <div class="card-header">
+                            <div class="card-icon">
+                                <i class="fa-solid fa-people-group"></i>
+                            </div>
+                            <div class="card-title">
+                                <h3>Technical Leadership</h3>
+                                <span class="duration">1 Year Experience</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p>Leading development teams and mentoring junior developers:</p>
+                            <ul class="skills-list">
+                                <li>Agile Methodologies</li>
+                                <li>Code Reviews</li>
+                                <li>Technical Documentation</li>
+                                <li>Team Mentoring</li>
+                                <li>Project Architecture</li>
+                            </ul>
+                        </div>
+                        <div class="card-footer">
+                            <span class="projects-count">5 Teams Led</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- <div class="experience-image">
+                    <img src="Profile photo.jpg" alt="Developer working" class="main-image">
+                    <div class="tech-bubbles">
+                        <div class="bubble" style="--delay: 0s"><i class="fa-brands fa-react"></i></div>
+                        <div class="bubble" style="--delay: 0.2s"><i class="fa-brands fa-js"></i></div>
+                        <div class="bubble" style="--delay: 0.4s"><i class="fa-brands fa-html5"></i></div>
+                        <div class="bubble" style="--delay: 0.6s"><i class="fa-brands fa-css3-alt"></i></div>
+                        <div class="bubble" style="--delay: 0.8s"><i class="fa-brands fa-node-js"></i></div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+            <p class="section-subtitle">A showcase of my best work and contributions</p>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="E-commerce-dashboard.webp" alt="E-Commerce Dashboard">
+                        <div class="project-overlay">
+                            <div class="tech-stack">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Dashboard</h3>
+                        <p class="project-description">
+                            A comprehensive admin dashboard for e-commerce businesses with real-time analytics, 
+                            inventory management, and customer insights.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link demo">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="project-link code">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="fitness-tracker.webp" alt="Fitness Tracker App">
+                        <div class="project-overlay">
+                            <div class="tech-stack">
+                                <span>React Native</span>
+                                <span>Firebase</span>
+                                <span>Redux</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Fitness Tracker App</h3>
+                        <p class="project-description">
+                            Mobile application for tracking workouts, nutrition, and progress with personalized 
+                            recommendations and social features.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link demo">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="project-link code">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="task-management.webp" alt="Task Management System">
+                        <div class="project-overlay">
+                            <div class="tech-stack">
+                                <span>Vue.js</span>
+                                <span>Express</span>
+                                <span>PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Management System</h3>
+                        <p class="project-description">
+                            Collaborative task management platform with drag-and-drop interface, team assignments, 
+                            and progress tracking.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link demo">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="project-link code">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="attendance-management-sysytem.webp" alt="Attendance Management System">
+                        <div class="project-overlay">
+                            <div class="tech-stack">
+                                <span>Next.js</span>
+                                <span>TypeScript</span>
+                                <span>GraphQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Attendance Management System</h3>
+                        <p class="project-description">
+                            Enterprise solution for tracking employee attendance with facial recognition, 
+                            reporting, and integration with HR systems.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link demo">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                            <a href="#" class="project-link code">
+                                <i class="fab fa-github"></i>
+                                View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-more">
+                <a href="https://github.com/vaibhavaher04" class="view-more-btn">
+                    View All Projects
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact <span class="highlight">Me</span></h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/manoeayd" method="POST" id="contact-form">
+                    <div class="form-group">
+                      <input type="text" name="name" placeholder="" required>
+                      <label>Your Name</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" name="email" placeholder="" required>
+                      <label>Your Email</label>
+                      <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="form-group textarea-group">
+                      <textarea name="message" placeholder="" required></textarea>
+                      <label>Your Message</label>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                      Send Message
+                      <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                  </form>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>ahervaibhav437@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+91 9322066092</span>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Ahilyanagar, Maharashtra</span>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/vaibhavaher04" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/vaibhavaher04/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/vaibhavaher04/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/ahervaibhav04" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-col footer-about">
+                <h3>Vaibhav Aher</h3>
+                <p>Frontend Developer & UI/UX Designer creating beautiful, functional digital experiences.</p>
+            </div>
+            <div class="footer-col footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col footer-contact">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li><i class="fa-solid fa-envelope"></i> ahervaibhav437@gmail.com</li>
+                    <li><i class="fa-solid fa-phone"></i> +91 9322066092</li>
+                    <li><i class="fa-solid fa-map-marker-alt"></i> Ahilyanagar, Maharashtra</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 <span>Vaibhav Aher</span>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
